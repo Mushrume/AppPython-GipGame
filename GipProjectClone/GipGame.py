@@ -33,7 +33,7 @@ class GipGame():
 
     #this function will include all the actual meat fo the game
     def mainloop(self):
-        while self.player1.score < 100 and self.player2.score < 100:
+        while self.player1.score < 100 or self.player2.score < 100:
             for player in self.players:
                 # This is where the actual game part will go
 
